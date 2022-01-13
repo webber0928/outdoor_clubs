@@ -43,3 +43,13 @@ npm run lint
 ### 自定義配置
 
 請詳閱[config 設定參考](https://cli.vuejs.org/config/)。
+
+## 安裝紀錄
+
+### sass loader
+
+安裝最新版的會失敗, 解法如下:
+
+```
+npm install sass-loader@10 node-sass --save-dev
+```
