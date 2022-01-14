@@ -53,3 +53,16 @@ npm run lint
 ```
 npm install sass-loader@10 node-sass --save-dev
 ```
+
+## 網域註冊
+
+(freenom)[https://my.freenom.com/]
+
+```
+# freenom -> Manage Freenom DNS
+www CNAME 3600 webber0928.github.io.
+
+# github pages
+CNAME
+www.oooooutdoor.tk
+```
