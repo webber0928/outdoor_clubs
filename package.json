@@ -1,11 +1,14 @@
 {
   "name": "outdoor_clubs",
+  "title": "緯創戶外活動社",
+  "description": "戶外活動社的概念融合WISTRON的字母W、等高線地圖、森林及海洋等元素,表達緯創戶外活動社活耀於不同海拔之間,上山下海自由奔放的精神。",
   "version": "0.1.0",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "sh deploy.sh"
   },
   "dependencies": {
     "core-js": "^3.6.5",
